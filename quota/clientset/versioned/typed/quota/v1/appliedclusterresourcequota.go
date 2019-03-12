@@ -3,8 +3,8 @@
 package v1
 
 import (
-	quota_v1 "github.com/openshift/api/quota/v1"
-	scheme "github.com/openshift/client-go/quota/clientset/versioned/scheme"
+	quota_v1 "github.com/sjenning/api/quota/v1"
+	scheme "github.com/sjenning/client-go/quota/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rest "k8s.io/client-go/rest"
 )

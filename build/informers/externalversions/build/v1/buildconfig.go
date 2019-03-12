@@ -5,10 +5,10 @@ package v1
 import (
 	time "time"
 
-	build_v1 "github.com/openshift/api/build/v1"
-	versioned "github.com/openshift/client-go/build/clientset/versioned"
-	internalinterfaces "github.com/openshift/client-go/build/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/build/listers/build/v1"
+	build_v1 "github.com/sjenning/api/build/v1"
+	versioned "github.com/sjenning/client-go/build/clientset/versioned"
+	internalinterfaces "github.com/sjenning/client-go/build/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/build/listers/build/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

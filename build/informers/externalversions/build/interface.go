@@ -3,8 +3,8 @@
 package build
 
 import (
-	v1 "github.com/openshift/client-go/build/informers/externalversions/build/v1"
-	internalinterfaces "github.com/openshift/client-go/build/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/build/informers/externalversions/build/v1"
+	internalinterfaces "github.com/sjenning/client-go/build/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

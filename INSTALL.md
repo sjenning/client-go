@@ -17,7 +17,7 @@ First create a `glide.yaml` file at the root of your project:
 ```yaml
 package: ( your project's import path ) # e.g. github.com/foo/bar
 import:
-- package: github.com/openshift/client-go
+- package: github.com/sjenning/client-go
   #version: xxx #you can specify the version if needed
 ```
 

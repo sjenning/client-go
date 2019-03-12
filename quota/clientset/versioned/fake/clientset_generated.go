@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/openshift/client-go/quota/clientset/versioned"
-	quotav1 "github.com/openshift/client-go/quota/clientset/versioned/typed/quota/v1"
-	fakequotav1 "github.com/openshift/client-go/quota/clientset/versioned/typed/quota/v1/fake"
+	clientset "github.com/sjenning/client-go/quota/clientset/versioned"
+	quotav1 "github.com/sjenning/client-go/quota/clientset/versioned/typed/quota/v1"
+	fakequotav1 "github.com/sjenning/client-go/quota/clientset/versioned/typed/quota/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

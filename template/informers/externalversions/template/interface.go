@@ -3,8 +3,8 @@
 package template
 
 import (
-	internalinterfaces "github.com/openshift/client-go/template/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/template/informers/externalversions/template/v1"
+	internalinterfaces "github.com/sjenning/client-go/template/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/template/informers/externalversions/template/v1"
 )
 
 // Interface provides access to each of this group's versions.

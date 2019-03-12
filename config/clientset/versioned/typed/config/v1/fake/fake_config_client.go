@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1 "github.com/openshift/client-go/config/clientset/versioned/typed/config/v1"
+	v1 "github.com/sjenning/client-go/config/clientset/versioned/typed/config/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )
@@ -40,7 +40,7 @@ func (c *FakeConfigV1) DNSes() v1.DNSInterface {
 	return &FakeDNSes{c}
 }
 
-func (c *FakeConfigV1) Features() v1.FeaturesInterface {
+func (c *FakeConfigV1) Features() v1.FeatureInterface {
 	return &FakeFeatures{c}
 }
 

@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	servicecertsignerv1alpha1 "github.com/openshift/api/servicecertsigner/v1alpha1"
+	servicecertsignerv1alpha1 "github.com/sjenning/api/servicecertsigner/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

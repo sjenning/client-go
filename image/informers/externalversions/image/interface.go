@@ -3,8 +3,8 @@
 package image
 
 import (
-	v1 "github.com/openshift/client-go/image/informers/externalversions/image/v1"
-	internalinterfaces "github.com/openshift/client-go/image/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/image/informers/externalversions/image/v1"
+	internalinterfaces "github.com/sjenning/client-go/image/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

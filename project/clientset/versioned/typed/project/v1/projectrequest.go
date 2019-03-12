@@ -3,7 +3,7 @@
 package v1
 
 import (
-	v1 "github.com/openshift/api/project/v1"
+	v1 "github.com/sjenning/api/project/v1"
 	rest "k8s.io/client-go/rest"
 )
 

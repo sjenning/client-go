@@ -3,8 +3,8 @@
 package route
 
 import (
-	internalinterfaces "github.com/openshift/client-go/route/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/route/informers/externalversions/route/v1"
+	internalinterfaces "github.com/sjenning/client-go/route/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/route/informers/externalversions/route/v1"
 )
 
 // Interface provides access to each of this group's versions.

@@ -3,7 +3,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/openshift/client-go/route/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/sjenning/client-go/route/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

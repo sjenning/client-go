@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1 "github.com/openshift/client-go/quota/clientset/versioned/typed/quota/v1"
+	v1 "github.com/sjenning/client-go/quota/clientset/versioned/typed/quota/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

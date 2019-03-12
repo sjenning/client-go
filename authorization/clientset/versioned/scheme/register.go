@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	authorizationv1 "github.com/openshift/api/authorization/v1"
+	authorizationv1 "github.com/sjenning/api/authorization/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

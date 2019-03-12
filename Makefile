@@ -2,11 +2,11 @@ all: build
 .PHONY: all
 
 build:
-	go build github.com/openshift/client-go/...
+	go build github.com/sjenning/client-go/...
 .PHONY: build
 
 build-examples:
-	go build -o examples/build/app github.com/openshift/client-go/examples/build/...
+	go build -o examples/build/app github.com/sjenning/client-go/examples/build/...
 .PHONY: build-examples
 
 verify:

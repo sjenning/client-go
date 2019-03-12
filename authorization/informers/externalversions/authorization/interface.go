@@ -3,8 +3,8 @@
 package authorization
 
 import (
-	v1 "github.com/openshift/client-go/authorization/informers/externalversions/authorization/v1"
-	internalinterfaces "github.com/openshift/client-go/authorization/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/authorization/informers/externalversions/authorization/v1"
+	internalinterfaces "github.com/sjenning/client-go/authorization/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

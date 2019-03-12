@@ -9,8 +9,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	v1 "github.com/openshift/api/build/v1"
-	buildv1 "github.com/openshift/client-go/build/clientset/versioned/typed/build/v1"
+	v1 "github.com/sjenning/api/build/v1"
+	buildv1 "github.com/sjenning/client-go/build/clientset/versioned/typed/build/v1"
 )
 
 func main() {

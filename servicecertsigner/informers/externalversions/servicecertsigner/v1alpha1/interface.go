@@ -3,7 +3,7 @@
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/openshift/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/sjenning/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

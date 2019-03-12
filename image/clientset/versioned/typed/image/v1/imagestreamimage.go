@@ -3,8 +3,8 @@
 package v1
 
 import (
-	image_v1 "github.com/openshift/api/image/v1"
-	scheme "github.com/openshift/client-go/image/clientset/versioned/scheme"
+	image_v1 "github.com/sjenning/api/image/v1"
+	scheme "github.com/sjenning/client-go/image/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rest "k8s.io/client-go/rest"
 )

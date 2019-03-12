@@ -3,7 +3,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/openshift/client-go/config/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/sjenning/client-go/config/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.
@@ -22,8 +22,8 @@ type Interface interface {
 	Consoles() ConsoleInformer
 	// DNSes returns a DNSInformer.
 	DNSes() DNSInformer
-	// Features returns a FeaturesInformer.
-	Features() FeaturesInformer
+	// Features returns a FeatureInformer.
+	Features() FeatureInformer
 	// Images returns a ImageInformer.
 	Images() ImageInformer
 	// Infrastructures returns a InfrastructureInformer.
@@ -88,9 +88,9 @@ func (v *version) DNSes() DNSInformer {
 	return &dNSInformer{factory: v.factory, tweakListOptions: v.tweakListOptions}
 }
 
-// Features returns a FeaturesInformer.
-func (v *version) Features() FeaturesInformer {
-	return &featuresInformer{factory: v.factory, tweakListOptions: v.tweakListOptions}
+// Features returns a FeatureInformer.
+func (v *version) Features() FeatureInformer {
+	return &featureInformer{factory: v.factory, tweakListOptions: v.tweakListOptions}
 }
 
 // Images returns a ImageInformer.

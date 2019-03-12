@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/openshift/client-go/operator/clientset/versioned"
-	operatorv1 "github.com/openshift/client-go/operator/clientset/versioned/typed/operator/v1"
-	fakeoperatorv1 "github.com/openshift/client-go/operator/clientset/versioned/typed/operator/v1/fake"
+	clientset "github.com/sjenning/client-go/operator/clientset/versioned"
+	operatorv1 "github.com/sjenning/client-go/operator/clientset/versioned/typed/operator/v1"
+	fakeoperatorv1 "github.com/sjenning/client-go/operator/clientset/versioned/typed/operator/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

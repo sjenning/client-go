@@ -5,10 +5,10 @@ package v1alpha1
 import (
 	time "time"
 
-	servicecertsigner_v1alpha1 "github.com/openshift/api/servicecertsigner/v1alpha1"
-	versioned "github.com/openshift/client-go/servicecertsigner/clientset/versioned"
-	internalinterfaces "github.com/openshift/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/openshift/client-go/servicecertsigner/listers/servicecertsigner/v1alpha1"
+	servicecertsigner_v1alpha1 "github.com/sjenning/api/servicecertsigner/v1alpha1"
+	versioned "github.com/sjenning/client-go/servicecertsigner/clientset/versioned"
+	internalinterfaces "github.com/sjenning/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/sjenning/client-go/servicecertsigner/listers/servicecertsigner/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

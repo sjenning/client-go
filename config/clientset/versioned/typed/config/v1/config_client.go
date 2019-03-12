@@ -3,8 +3,8 @@
 package v1
 
 import (
-	v1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/client-go/config/clientset/versioned/scheme"
+	v1 "github.com/sjenning/api/config/v1"
+	"github.com/sjenning/client-go/config/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )
@@ -62,7 +62,7 @@ func (c *ConfigV1Client) DNSes() DNSInterface {
 	return newDNSes(c)
 }
 
-func (c *ConfigV1Client) Features() FeaturesInterface {
+func (c *ConfigV1Client) Features() FeatureInterface {
 	return newFeatures(c)
 }
 

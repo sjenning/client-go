@@ -1,4 +1,4 @@
-package: github.com/openshift/client-go
+package: github.com/sjenning/client-go
 import:
 - package: k8s.io/gengo
   repo:    https://github.com/openshift/kubernetes-gengo.git
@@ -12,7 +12,7 @@ import:
   version: kubernetes-1.12.5
 - package: k8s.io/client-go
   version: kubernetes-1.12.5
-- package: github.com/openshift/api
+- package: github.com/sjenning/api
   version: master
 - package: github.com/golang/glog
 - package: github.com/spf13/pflag

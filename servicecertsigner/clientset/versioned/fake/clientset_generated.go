@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/openshift/client-go/servicecertsigner/clientset/versioned"
-	servicecertsignerv1alpha1 "github.com/openshift/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1"
-	fakeservicecertsignerv1alpha1 "github.com/openshift/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1/fake"
+	clientset "github.com/sjenning/client-go/servicecertsigner/clientset/versioned"
+	servicecertsignerv1alpha1 "github.com/sjenning/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1"
+	fakeservicecertsignerv1alpha1 "github.com/sjenning/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

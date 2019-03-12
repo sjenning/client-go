@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/openshift/client-go/authorization/clientset/versioned"
-	authorization "github.com/openshift/client-go/authorization/informers/externalversions/authorization"
-	internalinterfaces "github.com/openshift/client-go/authorization/informers/externalversions/internalinterfaces"
+	versioned "github.com/sjenning/client-go/authorization/clientset/versioned"
+	authorization "github.com/sjenning/client-go/authorization/informers/externalversions/authorization"
+	internalinterfaces "github.com/sjenning/client-go/authorization/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

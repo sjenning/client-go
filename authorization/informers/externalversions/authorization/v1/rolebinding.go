@@ -5,10 +5,10 @@ package v1
 import (
 	time "time"
 
-	authorization_v1 "github.com/openshift/api/authorization/v1"
-	versioned "github.com/openshift/client-go/authorization/clientset/versioned"
-	internalinterfaces "github.com/openshift/client-go/authorization/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/authorization/listers/authorization/v1"
+	authorization_v1 "github.com/sjenning/api/authorization/v1"
+	versioned "github.com/sjenning/client-go/authorization/clientset/versioned"
+	internalinterfaces "github.com/sjenning/client-go/authorization/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/authorization/listers/authorization/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

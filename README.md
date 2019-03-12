@@ -20,7 +20,7 @@ See [examples](/examples).
 
 ### Compatibility
 
-openshift/client-go is backwards compatible with prior server versions back to
+sjenning/client-go is backwards compatible with prior server versions back to
 v3.6 when we switched to API groups.  It is not compatible before that.
 
 Keep in mind that using a newer client is generally safe, but the server will

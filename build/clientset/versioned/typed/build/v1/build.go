@@ -3,8 +3,8 @@
 package v1
 
 import (
-	v1 "github.com/openshift/api/build/v1"
-	scheme "github.com/openshift/client-go/build/clientset/versioned/scheme"
+	v1 "github.com/sjenning/api/build/v1"
+	scheme "github.com/sjenning/client-go/build/clientset/versioned/scheme"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

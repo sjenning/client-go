@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1 "github.com/openshift/api/security/v1"
+	v1 "github.com/sjenning/api/security/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	testing "k8s.io/client-go/testing"
 )

@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/openshift/client-go/authorization/clientset/versioned"
-	authorizationv1 "github.com/openshift/client-go/authorization/clientset/versioned/typed/authorization/v1"
-	fakeauthorizationv1 "github.com/openshift/client-go/authorization/clientset/versioned/typed/authorization/v1/fake"
+	clientset "github.com/sjenning/client-go/authorization/clientset/versioned"
+	authorizationv1 "github.com/sjenning/client-go/authorization/clientset/versioned/typed/authorization/v1"
+	fakeauthorizationv1 "github.com/sjenning/client-go/authorization/clientset/versioned/typed/authorization/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

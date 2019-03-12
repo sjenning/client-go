@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/openshift/client-go/route/clientset/versioned"
-	routev1 "github.com/openshift/client-go/route/clientset/versioned/typed/route/v1"
-	fakeroutev1 "github.com/openshift/client-go/route/clientset/versioned/typed/route/v1/fake"
+	clientset "github.com/sjenning/client-go/route/clientset/versioned"
+	routev1 "github.com/sjenning/client-go/route/clientset/versioned/typed/route/v1"
+	fakeroutev1 "github.com/sjenning/client-go/route/clientset/versioned/typed/route/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

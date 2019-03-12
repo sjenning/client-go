@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	quotav1 "github.com/openshift/api/quota/v1"
+	quotav1 "github.com/sjenning/api/quota/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

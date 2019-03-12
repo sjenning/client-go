@@ -3,8 +3,8 @@
 package v1
 
 import (
-	v1 "github.com/openshift/api/authorization/v1"
-	"github.com/openshift/client-go/authorization/clientset/versioned/scheme"
+	v1 "github.com/sjenning/api/authorization/v1"
+	"github.com/sjenning/client-go/authorization/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

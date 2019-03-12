@@ -3,8 +3,8 @@
 package security
 
 import (
-	internalinterfaces "github.com/openshift/client-go/security/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/security/informers/externalversions/security/v1"
+	internalinterfaces "github.com/sjenning/client-go/security/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/security/informers/externalversions/security/v1"
 )
 
 // Interface provides access to each of this group's versions.

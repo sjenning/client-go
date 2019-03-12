@@ -3,8 +3,8 @@
 package apps
 
 import (
-	v1 "github.com/openshift/client-go/apps/informers/externalversions/apps/v1"
-	internalinterfaces "github.com/openshift/client-go/apps/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/apps/informers/externalversions/apps/v1"
+	internalinterfaces "github.com/sjenning/client-go/apps/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

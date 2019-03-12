@@ -5,10 +5,10 @@ package v1
 import (
 	time "time"
 
-	quota_v1 "github.com/openshift/api/quota/v1"
-	versioned "github.com/openshift/client-go/quota/clientset/versioned"
-	internalinterfaces "github.com/openshift/client-go/quota/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/quota/listers/quota/v1"
+	quota_v1 "github.com/sjenning/api/quota/v1"
+	versioned "github.com/sjenning/client-go/quota/clientset/versioned"
+	internalinterfaces "github.com/sjenning/client-go/quota/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/quota/listers/quota/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

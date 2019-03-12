@@ -11,8 +11,8 @@ verify="${VERIFY:-}"
 
 for group in apps authorization build config image network oauth operator project quota route security template user; do
   ${CODEGEN_PKG}/generate-groups.sh "client,lister,informer" \
-    github.com/openshift/client-go/${group} \
-    github.com/openshift/api \
+    github.com/sjenning/client-go/${group} \
+    github.com/sjenning/api \
     "${group}:v1" \
     --go-header-file ${SCRIPT_ROOT}/hack/boilerplate.txt \
     ${verify}
@@ -20,8 +20,8 @@ done
 
 for group in servicecertsigner; do
   ${CODEGEN_PKG}/generate-groups.sh "client,lister,informer" \
-    github.com/openshift/client-go/${group} \
-    github.com/openshift/api \
+    github.com/sjenning/client-go/${group} \
+    github.com/sjenning/api \
     "${group}:v1alpha1" \
     --go-header-file ${SCRIPT_ROOT}/hack/boilerplate.txt \
     ${verify}

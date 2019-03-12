@@ -3,7 +3,7 @@
 package fake
 
 import (
-	securityv1 "github.com/openshift/api/security/v1"
+	securityv1 "github.com/sjenning/api/security/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

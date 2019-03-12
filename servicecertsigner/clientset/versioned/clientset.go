@@ -3,7 +3,7 @@
 package versioned
 
 import (
-	servicecertsignerv1alpha1 "github.com/openshift/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1"
+	servicecertsignerv1alpha1 "github.com/sjenning/client-go/servicecertsigner/clientset/versioned/typed/servicecertsigner/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

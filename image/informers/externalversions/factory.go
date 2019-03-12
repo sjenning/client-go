@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/openshift/client-go/image/clientset/versioned"
-	image "github.com/openshift/client-go/image/informers/externalversions/image"
-	internalinterfaces "github.com/openshift/client-go/image/informers/externalversions/internalinterfaces"
+	versioned "github.com/sjenning/client-go/image/clientset/versioned"
+	image "github.com/sjenning/client-go/image/informers/externalversions/image"
+	internalinterfaces "github.com/sjenning/client-go/image/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

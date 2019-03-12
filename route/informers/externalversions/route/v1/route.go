@@ -5,10 +5,10 @@ package v1
 import (
 	time "time"
 
-	route_v1 "github.com/openshift/api/route/v1"
-	versioned "github.com/openshift/client-go/route/clientset/versioned"
-	internalinterfaces "github.com/openshift/client-go/route/informers/externalversions/internalinterfaces"
-	v1 "github.com/openshift/client-go/route/listers/route/v1"
+	route_v1 "github.com/sjenning/api/route/v1"
+	versioned "github.com/sjenning/client-go/route/clientset/versioned"
+	internalinterfaces "github.com/sjenning/client-go/route/informers/externalversions/internalinterfaces"
+	v1 "github.com/sjenning/client-go/route/listers/route/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	projectv1 "github.com/openshift/api/project/v1"
+	projectv1 "github.com/sjenning/api/project/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

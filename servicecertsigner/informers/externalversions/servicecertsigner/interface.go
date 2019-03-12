@@ -3,8 +3,8 @@
 package servicecertsigner
 
 import (
-	internalinterfaces "github.com/openshift/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/openshift/client-go/servicecertsigner/informers/externalversions/servicecertsigner/v1alpha1"
+	internalinterfaces "github.com/sjenning/client-go/servicecertsigner/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/sjenning/client-go/servicecertsigner/informers/externalversions/servicecertsigner/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

@@ -3,7 +3,7 @@
 package versioned
 
 import (
-	userv1 "github.com/openshift/client-go/user/clientset/versioned/typed/user/v1"
+	userv1 "github.com/sjenning/client-go/user/clientset/versioned/typed/user/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
