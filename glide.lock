@@ -1,5 +1,5 @@
 hash: da853cefdd52db9315c529a70a7faedef004c72edd0986f38069baf619cb6ade
-updated: 2019-03-12T11:15:33.251551615-05:00
+updated: 2019-03-12T11:20:25.594161075-05:00
 imports:
 - name: github.com/davecgh/go-spew
   version: 782f4967f2dc4564575ca782fe2d04090b5faca8
@@ -51,7 +51,7 @@ imports:
 - name: github.com/peterbourgon/diskv
   version: 5f041e8faa004a95c88a202771f4cc3e991971e6
 - name: github.com/sjenning/api
-  version: 4f9f446b5f600287180ac3ec34d761c2d61941d6
+  version: 31647ee74ebf5763043a7b40739d2050c2046cb9
   subpackages:
   - apps/v1
   - authorization/v1
